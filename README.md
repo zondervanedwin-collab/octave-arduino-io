@@ -1,6 +1,7 @@
 # octave-arduino-io
 
 **A minimal, transparent Octave ↔ Arduino I/O interface based on serial communication.**
+[![GitHub license](https://img.shields.io/badge/license-CC--BY--NC--SA-blue.svg)](LICENSE)
 
 `octave-arduino-io` provides a clean and robust way to control **Arduino digital and analog I/O directly from GNU Octave**, without relying on the fragile and board-limited Octave `arduino()` package.
 
@@ -9,9 +10,6 @@
 > **Communication is explicit and transparent.**
 >
 > # octave-arduino-io
-
-[![GitHub license](https://img.shields.io/badge/license-CC--BY--NC--SA-blue.svg)](LICENSE)
-
 
 ---
 
