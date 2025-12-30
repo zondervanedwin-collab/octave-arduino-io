@@ -7,6 +7,11 @@
 > **Octave handles logic and control.**  
 > **Arduino handles hardware.**  
 > **Communication is explicit and transparent.**
+>
+> # octave-arduino-io
+
+[![GitHub license](https://img.shields.io/badge/license-CC--BY--NC--SA-blue.svg)](LICENSE)
+
 
 ---
 
