@@ -119,6 +119,17 @@ octave-arduino-io/
 The firmware is stored in flash and **persists across power cycles and reboots**.
 
 ---
+## Quick Start
+
+1. Plug in your Arduino Uno
+2. Upload the `octave_arduino_io.ino` firmware
+3. Run Octave and type:
+
+```octave
+s = arduino_init();
+pinmode(s, 13, "output");
+dwrite(s, 13, 1); pause(1); dwrite(s, 13, 0);
+
 
 ### 2. Octave side
 
